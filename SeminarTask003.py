@@ -20,11 +20,22 @@ print(f'Максимальное число = {max}')
 
 ####
 
-c1 = int(input('Введите число: '))
-max = c1
-for i in range(4):
-    c1 = int(input('Введите число: '))
-    if c1 > max:
-        max = c1
+# max = int(input('Введите число: '))
+# for i in range(4):
+#     a = int(input('Введите число: '))
+#     if a > max:
+#         max = a
 
-print(f'Максимальное число = {max}')
+# print(f'Максимальное число = {max}')
+
+#######
+
+# a = list(map(int,input().split()))
+
+# maximum = max(a)
+
+# print(f'Максимальное число = {maximum}')
+
+########
+
+print(max(list(map(int,input().split()))))
