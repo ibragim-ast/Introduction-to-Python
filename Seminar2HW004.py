@@ -12,7 +12,7 @@ if pos1 == n or pos2 == n or n == 0:
     print('Error! Один из множителей равен нулю! Попробуйте снова!')
 else:
     print(lst)
-    print(lst[pos1] * lst[pos2])
+    print(f'Произведение элементов на указанных позициях: {lst[pos1] * lst[pos2]}')
 
 
 
