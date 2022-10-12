@@ -38,4 +38,4 @@ print('Задача 3. Напишите программу, которая на 
 
 ########
 
-print(max(list(map(int,input().split()))))
+print(min(list(map(int,input().split()))))
